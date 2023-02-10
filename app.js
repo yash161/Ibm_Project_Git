@@ -189,7 +189,7 @@ app.post('/login', function (request, response) {
                 .catch(function(err)  {
                     console.log(err);
   });
-                response.redirect('/new1');
+                response.redirect('/otp');
             }
             else {
                 response.send('Incorrect Username and/or Password!');
